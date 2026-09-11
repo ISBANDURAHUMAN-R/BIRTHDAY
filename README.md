@@ -1,4 +1,4 @@
-````markdown
+
 # ✨ Premium Birthday Surprise Website
 
 A cinematic, interactive birthday website created for someone special.
@@ -9,7 +9,6 @@ Instead of sending a simple "Happy Birthday 🎂", this project turns the wish i
 
 The website takes the visitor through a simple journey:
 
-```text
 Landing Page
      ↓
 Interactive Story
@@ -19,7 +18,7 @@ Birthday Reveal
 Confetti Celebration 🎉
      ↓
 Personal Message ❤️
-````
+
 
 The goal is to make the birthday wish feel like an experience rather than just another message.
 
@@ -48,13 +47,13 @@ The goal is to make the birthday wish feel like an experience rather than just a
 
 ## 📁 Project Structure
 
-```text
+
 premium-birthday/
 │
 ├── index.html
 ├── style.css
 └── script.js
-```
+
 
 ### `index.html`
 
@@ -93,9 +92,9 @@ Want to make it personal?
 
 Open `index.html` and change:
 
-```html
+
 My Favorite Human
-```
+
 
 to your friend's name.
 
@@ -103,7 +102,7 @@ You can also edit the birthday message inside the final section.
 
 For example:
 
-```html
+
 <h1>
     Happy Birthday,<br>
     <span>Your Friend's Name</span> ✨
@@ -124,9 +123,8 @@ For example:
 
 Simply open:
 
-```text
+
 index.html
-```
 
 in any modern web browser.
 
