@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>A Letter, By Candlelight</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grain"></div>
+<div class="vignette"></div>
+
+<main id="stage">
+
+  <section class="page hero" id="hero">
+    <div class="candle" aria-hidden="true">
+      <div class="glow"></div>
+      <div class="flame"><span></span><span></span></div>
+      <div class="wick"></div>
+      <div class="wax"></div>
+    </div>
+    <h1>This one's<br><em>just for you.</em></h1>
+    <p class="intro">I wrote you a little letter. Sit somewhere quiet, and open it slowly.</p>
+    <button class="btn-primary" id="beginBtn">Open the letter</button>
+    <p class="hint">best read by lamplight, phone brightness low</p>
+  </section>
+
+  <section class="page story hidden" id="story">
+    <article class="leaf">
+      <div class="leaf-icon" id="icon">✦</div>
+      <h2 id="storyTitle">Wait...</h2>
+      <p id="storyText">There's something I need to tell you.</p>
+      <div class="leaf-foot">
+        <span class="folio" id="counter">Page 1 of 4</span>
+        <button class="btn-text" id="nextBtn">Turn the page</button>
+      </div>
+    </article>
+  </section>
+
+  <section class="page birthday hidden" id="birthday">
+    <div class="embers" id="embers"></div>
+    <h1>Happy birthday,<br><em id="name">my favorite human</em></h1>
+    <p class="birthday-copy">You deserve the kind of happiness that outlasts the candles — the quiet, ordinary kind that shows up on a random Tuesday for no reason at all.</p>
+
+    <ul class="wishlist">
+      <li><span class="mark">✦</span>More reasons to smile than you can count</li>
+      <li><span class="mark">✦</span>A few unexpected, unplanned adventures</li>
+      <li><span class="mark">✦</span>People around you who see you clearly and stay anyway</li>
+    </ul>
+
+    <button class="btn-primary" id="giftBtn">There's one more page</button>
+  </section>
+
+  <section class="page final hidden" id="final">
+    <div class="seal" aria-hidden="true">♥</div>
+    <h2>Keep being<br><em>exactly you.</em></h2>
+    <p>Life is quietly better with people like you in it. Thank you for the random conversations, the stupid jokes, the unforgettable moments, and everything in between.</p>
+    <p class="signature">— your favorite menace</p>
+    <button class="btn-text btn-replay" id="replayBtn">refold the letter and read again</button>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
