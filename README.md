@@ -2,6 +2,13 @@
   <img src="assets/banner.png" alt="BIRTHDAY Banner" width="100%">
 </p>
 
+<div align="center">
+
+[![Live Demo](https://img.shields.io/badge/Live_Website-Active_Deployment-00C853?style=for-the-badge&logo=googlechrome&logoColor=white)](https://isbandurahuman-r.github.io/BIRTHDAY/)
+
+🚀 **[Launch Interactive Celebration Experience ➔](https://isbandurahuman-r.github.io/BIRTHDAY/)**
+
+</div>
 
 # ✨ Premium Birthday Surprise Website
 
