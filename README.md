@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.png" alt="BIRTHDAY Banner" width="100%">
+</p>
+
 
 # ✨ Premium Birthday Surprise Website
 
