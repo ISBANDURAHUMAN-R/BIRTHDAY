@@ -2,185 +2,32 @@
   <img src="assets/banner.png" alt="BIRTHDAY Banner" width="100%">
 </p>
 
-<div align="center">
+# ◈ Interactive Birthday Celebration Experience
 
-[![Live Demo](https://img.shields.io/badge/Live_Website-Active_Deployment-00C853?style=for-the-badge&logo=googlechrome&logoColor=white)](https://isbandurahuman-r.github.io/BIRTHDAY/)
+## ◆ About the Project
+This repository hosts a self-contained interactive web greeting application built with modern front-end styling. Designed as a digital greeting card, it guides the user through an animated storytelling progression leading to a celebration reveal and personalized greeting.
 
-› **[Launch Interactive Celebration Experience »](https://isbandurahuman-r.github.io/BIRTHDAY/)**
+## ❖ Key Features
+- ▪ Multi-stage interactive story progression with smooth section transitions.
+- ▫ Dark-mode visual presentation with starfield animations and glassmorphism cards.
+- ▴ HTML5 Canvas particle confetti burst upon reaching the reveal screen.
+- ▿ Responsive, lightweight client-side architecture requiring no backend or external frameworks.
 
-</div>
+## ⬢ Technologies Used
+- HTML5 & CSS3
+- JavaScript (ES6 Vanilla)
+- HTML5 Canvas API
 
-# ◈ Premium Birthday Surprise Website
+## § Requirements
+- Modern web browser
 
-A cinematic, interactive birthday website created for someone special.
-
-Instead of sending a simple "Happy Birthday", this project turns the wish into a small interactive experience with a premium dark aesthetic, animated transitions, and a heartfelt final message.
-
-## ✦ Experience
-
-The website takes the visitor through a simple journey:
-
-Landing Page
-     ↓
-Interactive Story
-     ↓
-Birthday Reveal
-     ↓
-Confetti Celebration
-     ↓
-Personal Message
-
-
-The goal is to make the birthday wish feel like an experience rather than just another message.
-
-## ❖ Features
-
-* ▪ Premium dark cinematic UI
-* ▫ Animated star background
-* ▴ Smooth page transitions
-* ▿ Glassmorphism-style story card
-* ⬡ Animated birthday reveal
-* ⬢ Confetti celebration
-* ● Personal heartfelt message
-* · Fully responsive design
-* ✦ Lightweight and fast
-* ※ Easy to customize
-* ✕ No backend required
-
-## ◎ Tech Stack
-
-| Technology   | Purpose                                |
-| ------------ | -------------------------------------- |
-| HTML5        | Website structure                      |
-| CSS3         | Design, animations & responsive layout |
-| JavaScript   | Interactions & page transitions        |
-| Google Fonts | Premium typography                     |
-
-## □ Project Structure
-
+## ▲ Installation & Execution
+```bash
+# Open index.html directly or serve locally
+python -m http.server 8000
 ```
-premium-birthday/
-│
-├── index.html
-├── style.css
-└── script.js
-```
+Open `http://localhost:8000` in your web browser.
 
-### `index.html`
-
-Contains the structure of the website, including:
-
-* Landing section
-* Interactive story
-* Birthday reveal
-* Wish cards
-* Final message
-
-### `style.css`
-
-Handles the visual experience:
-
-* Dark premium theme
-* Typography
-* Glassmorphism
-* Animations
-* Responsive design
-* Confetti styling
-
-### `script.js`
-
-Controls:
-
-* Story navigation
-* Section transitions
-* Birthday reveal
-* Confetti animation
-* Replay functionality
-
-## § Customization
-
-Want to make it personal?
-
-Open `index.html` and change:
-
-```html
-My Favorite Human
-```
-
-to your friend's name.
-
-You can also edit the birthday message inside the final section.
-
-For example:
-
-```html
-<h1>
-    Happy Birthday,<br>
-    <span>Your Friend's Name</span>
-</h1>
-```
-
-## ▲ How To Run
-
-### Option 1 — VS Code
-
-1. Download or clone this repository.
-2. Open the folder in VS Code.
-3. Install **Live Server**.
-4. Right-click `index.html`.
-5. Select **Open with Live Server**.
-
-### Option 2 — Directly
-
-Simply open:
-
-```
-index.html
-```
-
-in any modern web browser.
-
-No server or installation is required.
-
-## ▸ Why I Made This
-
-A birthday message doesn't always have to be a paragraph.
-
-Sometimes a small interactive experience can create a better memory.
-
-This project was made to turn:
-
-> "Happy Birthday"
-
-into:
-
-> "Wait... what is this?"
-
-and eventually:
-
-> "This is amazing!"
-
-## 彡 Future Ideas
-
-Possible upgrades:
-
-- Background birthday music
-- Personal photo gallery
-- Secret messages
-- Interactive gift box
-- Birthday countdown
-- Clickable balloons
-- Custom name input
-- Memory timeline
-- More cinematic animations
-- Shareable personalized birthday links
-
-## ■ License
-
-This project is free to use, modify and customize for personal projects.
-
-Crafted with care and dedication.
-
----
-
-### ✦ If this made someone's birthday a little more memorable, it did its job.
+## ※ Developer
+Developer: ISBANDU RAHUMAN R  
+GitHub: https://github.com/ISBANDURAHUMAN-R
