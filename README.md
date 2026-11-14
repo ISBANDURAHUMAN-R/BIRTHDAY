@@ -8,10 +8,10 @@
 This repository hosts a self-contained interactive web greeting application built with modern front-end styling. Designed as a digital greeting card, it guides the user through an animated storytelling progression leading to a celebration reveal and personalized greeting.
 
 ## ❖ Key Features
-- ▪ Multi-stage interactive story progression with smooth section transitions.
-- ▫ Dark-mode visual presentation with starfield animations and glassmorphism cards.
-- ▴ HTML5 Canvas particle confetti burst upon reaching the reveal screen.
-- ▿ Responsive, lightweight client-side architecture requiring no backend or external frameworks.
+- Multi-stage interactive story progression with smooth section transitions.
+- Dark-mode visual presentation with starfield animations and glassmorphism cards.
+- HTML5 Canvas particle confetti burst upon reaching the reveal screen.
+- Responsive, lightweight client-side architecture requiring no backend or external frameworks.
 
 ## ⬢ Technologies Used
 - HTML5 & CSS3
