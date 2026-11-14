@@ -6,17 +6,17 @@
 
 [![Live Demo](https://img.shields.io/badge/Live_Website-Active_Deployment-00C853?style=for-the-badge&logo=googlechrome&logoColor=white)](https://isbandurahuman-r.github.io/BIRTHDAY/)
 
-🚀 **[Launch Interactive Celebration Experience ➔](https://isbandurahuman-r.github.io/BIRTHDAY/)**
+› **[Launch Interactive Celebration Experience »](https://isbandurahuman-r.github.io/BIRTHDAY/)**
 
 </div>
 
-# ✨ Premium Birthday Surprise Website
+# ◈ Premium Birthday Surprise Website
 
 A cinematic, interactive birthday website created for someone special.
 
-Instead of sending a simple "Happy Birthday 🎂", this project turns the wish into a small interactive experience with a premium dark aesthetic, animated transitions, and a heartfelt final message.
+Instead of sending a simple "Happy Birthday", this project turns the wish into a small interactive experience with a premium dark aesthetic, animated transitions, and a heartfelt final message.
 
-## 🎬 Experience
+## ✦ Experience
 
 The website takes the visitor through a simple journey:
 
@@ -26,28 +26,28 @@ Interactive Story
      ↓
 Birthday Reveal
      ↓
-Confetti Celebration 🎉
+Confetti Celebration
      ↓
-Personal Message ❤️
+Personal Message
 
 
 The goal is to make the birthday wish feel like an experience rather than just another message.
 
-## ✨ Features
+## ❖ Features
 
-* 🌑 Premium dark cinematic UI
-* ✨ Animated star background
-* 🎞️ Smooth page transitions
-* 💎 Glassmorphism-style story card
-* 🎂 Animated birthday reveal
-* 🎉 Confetti celebration
-* ❤️ Personal heartfelt message
-* 📱 Fully responsive design
-* ⚡ Lightweight and fast
-* 🔧 Easy to customize
-* 🚫 No backend required
+* ▪ Premium dark cinematic UI
+* ▫ Animated star background
+* ▴ Smooth page transitions
+* ▿ Glassmorphism-style story card
+* ⬡ Animated birthday reveal
+* ⬢ Confetti celebration
+* ● Personal heartfelt message
+* · Fully responsive design
+* ✦ Lightweight and fast
+* ※ Easy to customize
+* ✕ No backend required
 
-## 🛠️ Tech Stack
+## ◎ Tech Stack
 
 | Technology   | Purpose                                |
 | ------------ | -------------------------------------- |
@@ -56,15 +56,15 @@ The goal is to make the birthday wish feel like an experience rather than just a
 | JavaScript   | Interactions & page transitions        |
 | Google Fonts | Premium typography                     |
 
-## 📁 Project Structure
+## □ Project Structure
 
-
+```
 premium-birthday/
 │
 ├── index.html
 ├── style.css
 └── script.js
-
+```
 
 ### `index.html`
 
@@ -97,15 +97,15 @@ Controls:
 * Confetti animation
 * Replay functionality
 
-## 🎨 Customization
+## § Customization
 
 Want to make it personal?
 
 Open `index.html` and change:
 
-
+```html
 My Favorite Human
-
+```
 
 to your friend's name.
 
@@ -113,14 +113,14 @@ You can also edit the birthday message inside the final section.
 
 For example:
 
-
+```html
 <h1>
     Happy Birthday,<br>
-    <span>Your Friend's Name</span> ✨
+    <span>Your Friend's Name</span>
 </h1>
 ```
 
-## 🚀 How To Run
+## ▲ How To Run
 
 ### Option 1 — VS Code
 
@@ -134,14 +134,15 @@ For example:
 
 Simply open:
 
-
+```
 index.html
+```
 
 in any modern web browser.
 
 No server or installation is required.
 
-## 💡 Why I Made This
+## ▸ Why I Made This
 
 A birthday message doesn't always have to be a paragraph.
 
@@ -149,7 +150,7 @@ Sometimes a small interactive experience can create a better memory.
 
 This project was made to turn:
 
-> "Happy Birthday 🎂"
+> "Happy Birthday"
 
 into:
 
@@ -157,34 +158,29 @@ into:
 
 and eventually:
 
-> "😭❤️"
+> "This is amazing!"
 
-## 🌟 Future Ideas
+## 彡 Future Ideas
 
 Possible upgrades:
 
-* 🎵 Background birthday music
-* 📸 Personal photo gallery
-* 💌 Secret messages
-* 🎁 Interactive gift box
-* 🕐 Birthday countdown
-* 🎈 Clickable balloons
-* 📝 Custom name input
-* 🗓️ Memory timeline
-* 🌌 More cinematic animations
-* 🔗 Shareable personalized birthday links
+- Background birthday music
+- Personal photo gallery
+- Secret messages
+- Interactive gift box
+- Birthday countdown
+- Clickable balloons
+- Custom name input
+- Memory timeline
+- More cinematic animations
+- Shareable personalized birthday links
 
-## 📜 License
+## ■ License
 
 This project is free to use, modify and customize for personal projects.
 
-Made with ❤️ and a questionable amount of effort.
+Crafted with care and dedication.
 
 ---
 
-### ⭐ If this made someone's birthday a little more memorable, it did its job.
-
-```
-
-For GitHub, I'd name the repo something like **`premium-birthday-surprise`** rather than `birthday-prank` — it looks much more polished when someone sees your repositories.
-```
+### ✦ If this made someone's birthday a little more memorable, it did its job.
