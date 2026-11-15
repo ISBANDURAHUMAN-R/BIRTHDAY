@@ -19,21 +19,21 @@ This repository hosts a self-contained interactive web greeting application buil
 ```mermaid
 graph TD
     subgraph UIProgression ["Multi-Stage Interactive Flow"]
-        Start[Landing Screen & Ambient Starfield] --> Step1[Interactive Stage 1: Narrative]
-        Step1 --> Step2[Interactive Stage 2: Memory Timeline]
-        Step2 --> Reveal[Celebration Reveal Stage]
+        Start["Landing Screen & Ambient Starfield"] --> Step1["Interactive Stage 1: Narrative"]
+        Step1 --> Step2["Interactive Stage 2: Memory Timeline"]
+        Step2 --> Reveal["Celebration Reveal Stage"]
     end
 
     subgraph AnimationFX ["Visual & Canvas FX Engine"]
-        Start --> Starfield[CSS3 Keyframe Ambient Stars]
-        Reveal --> TriggerConfetti[Confetti Trigger Event]
-        TriggerConfetti --> ConfettiEngine[HTML5 Canvas Particle Emitter<br/>Velocity | Gravity | Drag | Rotation]
-        ConfettiEngine --> CanvasOverlay[Canvas Overlay Renderer Pass]
+        Start --> Starfield["CSS3 Keyframe Ambient Stars"]
+        Reveal --> TriggerConfetti["Confetti Trigger Event"]
+        TriggerConfetti --> ConfettiEngine["HTML5 Canvas Particle Emitter<br/>Velocity • Gravity • Drag • Rotation"]
+        ConfettiEngine --> CanvasOverlay["Canvas Overlay Renderer Pass"]
     end
 
     subgraph StateMachine ["Client Transition Controller (script.js)"]
-        NavButton[Next / Advance Actions] --> TransitionState[Active Stage Transitioner]
-        TransitionState --> DOMMutation[CSS Class Swapping & Opacity Fades]
+        NavButton["Next / Advance Actions"] --> TransitionState["Active Stage Transitioner"]
+        TransitionState --> DOMMutation["CSS Class Swapping & Opacity Fades"]
         DOMMutation --> UIProgression
     end
 ```
