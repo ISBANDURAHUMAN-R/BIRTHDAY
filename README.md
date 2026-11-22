@@ -18,22 +18,22 @@ This repository hosts a self-contained interactive web greeting application buil
 ## ◆ System Architecture
 ```mermaid
 graph TD
-    subgraph UIProgression ["Multi-Stage Interactive Flow"]
-        Start["Landing Screen &<br/>Ambient Starfield"] --> Step1["Stage 1:<br/>Narrative Journey"]
-        Step1 --> Step2["Stage 2:<br/>Memory Timeline"]
-        Step2 --> Reveal["Celebration<br/>Reveal Stage"]
+    subgraph UIProgression ["&nbsp; Multi-Stage Interactive Flow &nbsp;"]
+        Start["&nbsp; Landing Screen &amp; &nbsp;<br/>&nbsp; Ambient Stars &nbsp;"] --> Step1["&nbsp; Stage 1: &nbsp;<br/>&nbsp; Narrative Journey &nbsp;"]
+        Step1 --> Step2["&nbsp; Stage 2: &nbsp;<br/>&nbsp; Memory Timeline &nbsp;"]
+        Step2 --> Reveal["&nbsp; Celebration &nbsp;<br/>&nbsp; Reveal Stage &nbsp;"]
     end
 
-    subgraph AnimationFX ["Visual & Canvas FX Engine"]
-        Start --> Starfield["CSS3 Keyframe<br/>Ambient Stars"]
-        Reveal --> TriggerConfetti["Confetti Trigger Event"]
-        TriggerConfetti --> ConfettiEngine["HTML5 Canvas Particle Emitter<br/>Velocity • Gravity<br/>Drag • Rotation"]
-        ConfettiEngine --> CanvasOverlay["Canvas Overlay<br/>Renderer Pass"]
+    subgraph AnimationFX ["&nbsp; Visual &amp; Canvas FX Engine &nbsp;"]
+        Start --> Starfield["&nbsp; CSS3 Keyframe &nbsp;<br/>&nbsp; Ambient Stars &nbsp;"]
+        Reveal --> TriggerConfetti["&nbsp; Confetti Trigger &nbsp;<br/>&nbsp; Event &nbsp;"]
+        TriggerConfetti --> ConfettiEngine["&nbsp; HTML5 Canvas &nbsp;<br/>&nbsp; Particle Emitter &nbsp;<br/>&nbsp; Gravity • Drag &nbsp;"]
+        ConfettiEngine --> CanvasOverlay["&nbsp; Canvas Overlay &nbsp;<br/>&nbsp; Renderer Pass &nbsp;"]
     end
 
-    subgraph StateMachine ["Client Transition Controller (script.js)"]
-        NavButton["Next / Advance Actions"] --> TransitionState["Active Stage<br/>Transitioner"]
-        TransitionState --> DOMMutation["CSS Class Swapping &<br/>Opacity Fades"]
+    subgraph StateMachine ["&nbsp; Client Transition Controller &nbsp;"]
+        NavButton["&nbsp; Next / Advance &nbsp;<br/>&nbsp; Actions &nbsp;"] --> TransitionState["&nbsp; Active Stage &nbsp;<br/>&nbsp; Transitioner &nbsp;"]
+        TransitionState --> DOMMutation["&nbsp; CSS Swapping &amp; &nbsp;<br/>&nbsp; Opacity Fades &nbsp;"]
         DOMMutation --> UIProgression
     end
 ```
