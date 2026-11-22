@@ -19,21 +19,21 @@ This repository hosts a self-contained interactive web greeting application buil
 ```mermaid
 graph TD
     subgraph UIProgression ["Multi-Stage Interactive Flow"]
-        Start["Landing Screen & Ambient Starfield"] --> Step1["Interactive Stage 1: Narrative"]
-        Step1 --> Step2["Interactive Stage 2: Memory Timeline"]
-        Step2 --> Reveal["Celebration Reveal Stage"]
+        Start["Landing Screen &<br/>Ambient Starfield"] --> Step1["Stage 1:<br/>Narrative Journey"]
+        Step1 --> Step2["Stage 2:<br/>Memory Timeline"]
+        Step2 --> Reveal["Celebration<br/>Reveal Stage"]
     end
 
     subgraph AnimationFX ["Visual & Canvas FX Engine"]
-        Start --> Starfield["CSS3 Keyframe Ambient Stars"]
+        Start --> Starfield["CSS3 Keyframe<br/>Ambient Stars"]
         Reveal --> TriggerConfetti["Confetti Trigger Event"]
-        TriggerConfetti --> ConfettiEngine["HTML5 Canvas Particle Emitter<br/>Velocity • Gravity • Drag • Rotation"]
-        ConfettiEngine --> CanvasOverlay["Canvas Overlay Renderer Pass"]
+        TriggerConfetti --> ConfettiEngine["HTML5 Canvas Particle Emitter<br/>Velocity • Gravity<br/>Drag • Rotation"]
+        ConfettiEngine --> CanvasOverlay["Canvas Overlay<br/>Renderer Pass"]
     end
 
     subgraph StateMachine ["Client Transition Controller (script.js)"]
-        NavButton["Next / Advance Actions"] --> TransitionState["Active Stage Transitioner"]
-        TransitionState --> DOMMutation["CSS Class Swapping & Opacity Fades"]
+        NavButton["Next / Advance Actions"] --> TransitionState["Active Stage<br/>Transitioner"]
+        TransitionState --> DOMMutation["CSS Class Swapping &<br/>Opacity Fades"]
         DOMMutation --> UIProgression
     end
 ```
